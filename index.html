@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap stylesheet | CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- document data -->
+    <title>Błażej Kozieł</title>
+
+</head>
+<body>
+
+
+    <!-- zad 1 -->
+    <section id="zad1" class="container row my-5 mx-auto">
+        <h3 class="display-6">Wielokrotności liczb.</h3>
+        <p class="lead">Zadanie 1</p>
+        <div class="my-1 col-6 col-md-4"><input type="number" class="form-control input1" placeholder="Podaj liczbę A" /></div>
+        <div class="my-1 col-6 col-md-4"><input type="number" class="form-control input2" placeholder="Podaj liczbę B" /></div>
+        <div class="my-1 col-12 col-md-4"><button type="button" class="btn btn-primary button1 w-100">Sprawdź</button></div>
+        <div class="my-1 col-12"><input type="text" class="form-control input3" placeholder="Uzupełnij pola by sprawdzić wynik." disabled readonly/></div>
+    </section>
+
+
+    <!-- zad 2 -->
+    <section id="zad2" class="container row my-5 mx-auto">
+        <h3 class="display-6">Tabelka z potęgami.</h3>
+        <p class="lead">Zadanie 2</p>
+        <div class="my-1 col-12 col-md-7 mx-auto"><input type="range" class="form-range input1" min="1" max="10" step="1"/></div>
+        <div class="my-1 col-12 col-md-7 mx-auto text-center"><span class="text-muted">Wybrana potęga: <span class="value1"></span></span></div>
+        <div class="my-1 col-12 col-md-7 mx-auto"><button type="button" class="btn btn-primary button1 w-100">Sprawdź</button></div>
+        <div class="my-1 col-12 col-md-7 mx-auto"><ul class="list-group result1"></ul></div>
+    </section>
+
+
+    <!-- zad 4 -->
+    <section id="zad4" class="container row my-5 mx-auto">
+        <h3 class="display-6">Licznik.</h3>
+        <p class="lead">Zadanie 4</p>
+        <div class="my-1 col-12 p-1 fs-4 text-center">Do stódniówki pozostało:</div>
+        <div class="my-1 col-12 p-1 fs-3 text-center result1"></div>
+    </section>
+
+
+    <!-- zad 5 -->
+    <section id="zad5" class="container row my-5 mx-auto">
+        <h3 class="display-6">KOlory.</h3>
+        <p class="lead">Zadanie 5</p>
+        <div class="my-1 col-12">
+            <label class="form-check-label d-block"><input class="form-check-input me-1 input1" type="checkbox" value="#dc3545"/>Czerwony</label>
+            <label class="form-check-label d-block"><input class="form-check-input me-1 input2" type="checkbox" value="#198754"/>Zielony</label>
+            <label class="form-check-label d-block"><input class="form-check-input me-1 input3" type="checkbox" value="#0d6efd"/>Niebieski</label>
+        </div>
+        <div class="my-1 col-12">
+            <select class="form-select select1">
+                <option calue="16px">16px</option>
+                <option calue="20px">20px</option>
+                <option calue="24px">24px</option>
+                <option calue="28px">28px</option>
+                <option calue="32px">32px</option>
+            </select>
+        </div>
+        <p class="my-1 col-10 mx-auto text-center result1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut tristique sem. Praesent in maximus dui. Duis elementum tempus augue in tristique. Cras ut justo at purus tincidunt maximus. Donec hendrerit porta nisi vel volutpat. Nulla facilisi. Pellentesque id neque interdum, hendrerit nibh vel, cursus nunc. Morbi vel pulvinar lacus. Donec eleifend aliquam libero eget lacinia. Nullam fermentum nulla eu pulvinar aliquam.</p>
+    </section>
+
+
+    <!-- zad 6 -->
+    <section id="zad6" class="container row my-5 mx-auto">
+        <h3 class="display-6">Walidacja formularza.</h3>
+        <p class="lead">Zadanie 6</p>
+        <div class="my-1 col-12 row">
+            <div class="my-1 col-12 col-md-7 mx-auto"><input type="text" class="form-control input1" placeholder="Kod pocztowy wg. wzoru: XX-XXX" /><span class="badge bg-danger"></span></div>
+            <div class="my-1 col-12 col-md-7 mx-auto"><input type="number" class="form-control input2" placeholder="Liczba całkowita podzielna przez 2" /><span class="badge bg-danger"></span></div>
+            <div class="my-1 col-12 col-md-7 mx-auto"><input type="text" class="form-control input3" placeholder="Adres url wg. wzoru: http://{nazwa}.{domena}" /><span class="badge bg-danger"></span></div>
+            <div class="my-1 col-12 col-md-7 mx-auto"><input type="text" class="form-control input4" placeholder="Imię użytkownika wielką literą" /><span class="badge bg-danger"></span></div>
+        </div>
+    </section>
+
+
+    <!-- zad 7 -->
+    <section id="zad7" class="container row my-5 mx-auto">
+        <h3 class="display-6">Antybluzgacz.</h3>
+        <p class="lead">Zadanie 7</p>
+        <div class="my-1 col-6">
+            <div class="col-12 mb-1"><input type="text" class="form-control input1" placeholder="Lista brzydkich wyrazów oddzielonych przecinkiem" /></div>
+            <div class="col-12 mt-1"><button class="btn btn-primary w-100 button1">Sprawdź</button></div>
+        </div>
+        <div class="my-1 col-6"><textarea class="form-control result1" rows="7" placeholder="Tu wpisz badany tekst"></textarea></div>
+    </section>
+
+
+    <!-- zad 8 -->
+    <section id="zad8" class="container row my-5 mx-auto">
+        <h3 class="display-6">Losowanie liczb z zakresu.</h3>
+        <p class="lead">Zadanie 8</p>
+        <div class="my-1 col-6">
+            <div class="col-12 mb-1"><input type="text" class="form-control input1" placeholder="Wartość minimalna" /></div>
+            <div class="col-12 my-1"><input type="text" class="form-control input2" placeholder="Wartość maksymalna" /></div>
+            <div class="col-12 mt-1"><button class="btn btn-primary w-100    button1">Sprawdź</button></div>
+        </div>
+        <div class="my-1 col-6">
+            <p class="lead">Wylosowane numery to:</p>
+            <p class="lead fs-3 text-center result1"></p>
+        </div>
+    </section>
+
+
+    <!-- proper scripts -->
+    <script src="./script/zad1.js"></script>
+    <script src="./script/zad2.js"></script>
+    <script src="./script/zad4.js"></script>
+    <script src="./script/zad5.js"></script>
+    <script src="./script/zad8.js"></script>
+
+    
+</body>
+</html>
